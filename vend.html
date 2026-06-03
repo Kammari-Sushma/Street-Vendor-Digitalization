@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Vendor Digitalization Agent</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        h1 { color: #1f2937; }
+        p { color: #4b5563; line-height: 1.6; }
+        .badge {
+            background-color: #0f62fe;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="badge">Problem Statement No.29</div>
+        <h1>Street Vendor Digitalization Agent</h1>
+        <p>Welcome to the digital assistant portal for local hawkers and micro-entrepreneurs. Use the floating chat widget on the bottom right to ask questions about PM SVANidhi loans, merchant UPI setup, and hyperlocal SEO strategies.</p>
+    </div>
+
+    <!-- IBM WATSONX LIVE AGENT SCRIPT -->
+    <script>
+  window.wxOConfiguration = {
+    orchestrationID: "e87758457b424375b36b722c38376389_216c836c-1ec3-46ce-8aac-8033463f5c97",
+    hostURL: "https://au-syd.watson-orchestrate.cloud.ibm.com",
+    rootElementID: "root",
+    deploymentPlatform: "ibmcloud",
+    crn: "crn:v1:bluemix:public:watsonx-orchestrate:au-syd:a/e87758457b424375b36b722c38376389:216c836c-1ec3-46ce-8aac-8033463f5c97::",
+    chatOptions: {
+        agentId: "e627cd77-7a7e-4ff7-b26b-432aa53a057a", 
+        agentEnvironmentId: "e31a4ad0-d3aa-47db-b2de-3a2288a90ec6",
+    }
+  };
+  setTimeout(function () {
+    const script = document.createElement('script');
+    script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+    script.addEventListener('load', function () {
+        wxoLoader.init();
+    });
+    document.head.appendChild(script);
+  }, 0);                     
+    </script>
+</body>
+</html>
