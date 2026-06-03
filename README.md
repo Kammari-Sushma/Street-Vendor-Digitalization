@@ -1,6 +1,6 @@
 Street Vendor Digitalization Agent 🛒📱  
 A Cloud-Native Digital Consultant for Informal Micro-Entrepreneurs  
-🚀 Click Here to View Live Demo  
+🚀 Click Here to View Live Demo  https://kammari-sushma.github.io/Street-Vendor-Digitalization/  
 (Note: Ensure you are on a mobile device or using mobile view in your browser for the best experience)  
 📌 Project Description  
 The Street Vendor Digitalization Agent is a multi-agent, cloud-native conversational AI designed to empower informal micro-entrepreneurs by bridging the digital and financial divide. Built using IBM watsonx Orchestrate and powered by IBM Granite foundation models, the system acts as a 24/7 digital consultant that provides accessible, step-by-step guidance on critical business operations.  
